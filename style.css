@@ -1,0 +1,260 @@
+h4{
+    color:#2e8b57;
+  }
+  #title{
+      background-color: 	#4682b4;
+
+  }
+
+  #title .container-fluid {
+      padding: 1% 2% 0 5%;
+      position: fixed;
+
+    }
+
+  .nav-box{
+      background-color:  #fff;
+      border-radius: 8px;
+
+
+  }
+  .club-logo{
+      width: 3.5%;
+      padding-left: 10px;
+  }
+  .brand{
+      font-size: 3rem;
+
+  }
+  .navbar-brand {
+      font-family: "Ubuntu";
+      font-size: 2.5rem;
+      color:#000;
+      font-weight: bold;
+    }
+   .navbar-nav{
+    padding-right: 12px;
+   }
+    #title li a:hover{
+    background-color:#6aa1ce;
+    border-radius: 8px;
+   }
+
+    .big-heading {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 4.7rem;
+      line-height: 1.7;
+      width: 100%;
+      padding-top: 13% ;
+      padding-left: 15%;
+      color: beige;
+      font-weight: bold;
+
+    }
+
+    .title-img{
+      width: 55%;
+      margin: 18% 20% ;
+    }
+
+    .sociel-handle {
+      padding: 20% 15%;
+      color: white;
+    }
+    .sociel-handle h4{
+      color: white;
+    }
+    h4{
+      font-size: 200px;
+      margin-right: 25px;
+      display: inline;
+    }
+
+    .sociel{
+      color: #fff;
+      margin: 0 2%;
+    }
+
+    /* About section */
+    #About{
+      background-color: white;
+      padding: 5% 9%;
+    }
+
+    .text{
+      color:	#2e8b57;
+
+    }
+    .about-heading{
+      font-family: "Montseret";
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 50px;
+      margin-top: 30px;
+
+    }
+
+    .about-para{
+      font-size: 1.4rem;
+      color:#708090;
+
+    }
+    .about-image{
+
+      width: 110%;
+      padding-left: 10%;
+    }
+
+
+    /* organise-title */
+     #organise-title{
+      background-color: #EDEDED;
+    }
+    .organise-detail{
+       padding: 5% 9%;;
+    }
+
+    .organise-detail h4{
+
+       color: #2e8b57;
+      margin-bottom: 50px;
+    }
+    .organise-detail h1{
+      font-family: "Montseret";
+      font-size: 4rem;
+      font-weight: bold;
+      margin-top: 30px;
+      margin-bottom: 50px;
+
+    }
+   .organise-detail h3{
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    color: #708090;
+   }
+
+   .points{
+    color: #708090;
+    line-height: 2;
+    font-size: 1.2rem;
+   }
+
+   li a{
+    text-decoration: none;
+   }
+
+  /* events-section */
+
+  #events-section{
+    position: relative;
+  }
+  .Events-container{
+    width: 100vw;
+    height:auto;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 120px;
+    align-content: center;
+    position: relative;
+    z-index: -1;
+
+
+
+}
+
+.item{
+width: 300px;
+font-family: "Ubuntu";
+height: 330px;
+background-color: rgb(49, 48, 48);
+margin: 10px;
+padding: 12px;
+text-align: center;
+margin-left: 60px;
+margin-right: 50px;
+margin-bottom: 50px;
+color: white;
+border-radius:7px ;
+}
+
+.col-heading{
+
+font-size: 1.5rem;
+color: rgb(245, 236, 236);
+}
+
+.events-hd{
+font-size: 1.7rem;
+margin-left: 240px;
+position: absolute;
+top:50px
+}
+
+.item p{
+font-size: 1.rem;
+
+color: rgb(207, 200, 200)
+}
+
+
+
+  /* contact-section */
+
+  #contact-section{
+    background-color: #EAEAEA;
+    padding: 7% 12% 2% 12%;
+  }
+
+  .follow-us{
+    color: #000;
+    margin: 10px;
+  }
+  .instagram:hover{
+    color: #B01E68;
+  }
+
+  .youtube:hover{
+    color: red;
+  }
+
+  #contact-section h1 {
+    margin: 30px 0;
+    font-size: 1.8rem;
+    font-weight: lighter;
+
+  }
+  #contact-section h1 a{
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 3rem;
+    color: rgb(8, 8, 8);
+  }
+  .contact-heading{
+      margin: 30px 0;
+  }
+
+  .sociel-media{
+    margin-top: 30px;
+  }
+  .copy-right{
+    text-align: center;
+    margin-top: 10%;
+  }
+
+
+  @media screen and (max-width:981px) {
+    
+    #title{
+      background-color:#4682b4; ;
+    }
+
+    
+    .title-img{
+      width: 20px;
+      margin: 18% 20% ;
+    }
+
+  }
